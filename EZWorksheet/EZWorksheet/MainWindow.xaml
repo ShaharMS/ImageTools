@@ -8,39 +8,43 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <TextBlock 
-            HorizontalAlignment="Center"
+            HorizontalAlignment="Left"
             Height="91"
             TextWrapping="Wrap"
             Text="EZWorksheet"
             VerticalAlignment="Top"
-            Width="464"
+            Width="434"
             FontSize="80"
-            FontFamily="Segoe UI"
-            Name="Title"
+            FontFamily="Fonts/#Dosis"
+            FontWeight="DemiBold"
+            Name="AppTitle" 
+            Margin="182,0,0,0" Grid.ColumnSpan="3"
         />
-        <Button 
-            Content="0"
+
+        <TextBlock 
             HorizontalAlignment="Left"
-            Height="150"
-            Width="150"
-            Margin ="80,182,0,102"
-            FontSize = "40"
-            Click="Button_Click_1"
-            Name ="CreateWorksheet"
+            Height="91"
+            TextWrapping="Wrap"
+            Text="Turn Worksheets into answerable docs!"
+            VerticalAlignment="Top"
+            Width="370"
+            FontSize="24"
+            FontFamily="Fonts/#Dosis"
+            FontWeight="Medium"
+            Name="SubTitle"
+            Margin="218,88,0,0" Grid.ColumnSpan="3"
         />
 
-        <Button 
-            Content="0"
-            HorizontalAlignment="Left"
-            Height="150"
-            Width="150"
-            Margin ="542,182,0,102"
-            FontSize = "40"
-            Click="Button_Click_2"
-            Name ="ScanWorksheet"
-        />
-
-
-
+        <Image Width="200" Height="200" Source="Assets/Menu/minitab.png" Margin="100,183,100,50"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition>
+            </ColumnDefinition>
+            <ColumnDefinition>
+            </ColumnDefinition>
+        </Grid.ColumnDefinitions>
+       
+        
+        
     </Grid>
+
 </Window>

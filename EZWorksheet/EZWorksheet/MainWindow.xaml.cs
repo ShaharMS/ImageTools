@@ -31,15 +31,13 @@ namespace EZWorksheet
             InitializeComponent();
         }
 
-        
+
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            CreateWorksheet.Content = (int.Parse(CreateWorksheet.Content.ToString()) + 1).ToString();
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-            ScanWorksheet.Content = (int.Parse(ScanWorksheet.Content.ToString()) + 1).ToString();
         }
     }
 }
