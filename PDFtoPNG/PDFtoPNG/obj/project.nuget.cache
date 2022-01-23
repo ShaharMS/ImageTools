@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "UXhZKF2LBWvIAaOvxiVmOX60ezPdh1HBFU5QKsh2erxiA334XBMR0i8oJWTA4xt4oEDtAVqNoSZZ9Gy83R5UcA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\shahar\\Documents\\GitHub\\EZWorksheet-CS\\PDFtoPNG\\PDFtoPNG\\PDFtoPNG.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\shahar\\.nuget\\packages\\apitron.pdf.kit\\2.0.49\\apitron.pdf.kit.2.0.49.nupkg.sha512",
+    "C:\\Users\\shahar\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\shahar\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
