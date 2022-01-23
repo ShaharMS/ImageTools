@@ -22,27 +22,20 @@ namespace PDFtoPNG
         IntPtr CurrentWindow = GetConsoleWindow();
         static void Main(string[] args)
         {
-            Console.WriteLine("ight imma convert to PNG");
+            //ShowWindow(GetConsoleWindow(), HIDE);
             //checks if the file Path.txt is present, else create it
             File.AppendText("Path.txt").Close();
-
-            //checks if the file RunDetails is present, else create it
-            var stream = File.AppendText("ConvertionFinished.txt");
             //if the program finshied the convertion. will always be on the first line
-            stream.Write("false");
-            stream.Close();
+            File.WriteAllText("ConvertionFinished.txt", "false");
             //the amount of PDF pages, the same as the amount of images being converted
-            stream = File.AppendText("PageCount.txt");
-            stream.Write("0");
-            stream.Close();
+            File.WriteAllText("PageCount.txt", "0");
+
             //exit code:
             // 0 - success
             // 1 - fail
-            // 2 - never started
+            // 2 - never started\during convertion
             //whenever you convert a file again the value will be set to 2, and then will be set to either 1\0 depending on the outcome
-            stream = File.AppendText("ExitCode.txt");
-            stream.WriteLine("2");
-            stream.Close();
+            File.WriteAllText("ExitCode.txt", "2");
             //actually read the content
             var pdfpath = File.ReadAllText("Path.txt");
             var savePath = Environment.CurrentDirectory;
@@ -83,6 +76,7 @@ namespace PDFtoPNG
             {
                 //keeps last convertion data
                 File.WriteAllText("ExitCode.txt", "1");
+                Console.WriteLine(e);
             }
             
         }

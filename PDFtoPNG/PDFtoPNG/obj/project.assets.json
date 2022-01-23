@@ -2,13 +2,13 @@
   "version": 3,
   "targets": {
     "net5.0": {
-      "Apitron.PDF.Kit/2.0.49": {
+      "Apitron.PDF.Rasterizer/3.0.165": {
         "type": "package",
         "compile": {
-          "lib/net50/Apitron.PDF.Kit.dll": {}
+          "lib/net50/Apitron.PDF.Rasterizer.dll": {}
         },
         "runtime": {
-          "lib/net50/Apitron.PDF.Kit.dll": {}
+          "lib/net50/Apitron.PDF.Rasterizer.dll": {}
         }
       },
       "Microsoft.Win32.SystemEvents/6.0.0": {
@@ -57,59 +57,51 @@
     }
   },
   "libraries": {
-    "Apitron.PDF.Kit/2.0.49": {
-      "sha512": "DM5dIY/xvwGdO+0wHZ9DPANhYn95IYWSfRDeVbYjspNoRJXLVhXmnUF0N8lzDGJvEZ8O5ymQWTKLbObRs5BYww==",
+    "Apitron.PDF.Rasterizer/3.0.165": {
+      "sha512": "gZgr68Ij7MC8p7I9p0tL9b1X9bZ3MiJAfkHDD+vUP8oGUYfO2I0+sRjoi/5rvWzNtrp/HGLlRYWfqvWdWUfMDA==",
       "type": "package",
-      "path": "apitron.pdf.kit/2.0.49",
+      "path": "apitron.pdf.rasterizer/3.0.165",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "apitron.pdf.kit.2.0.49.nupkg.sha512",
-        "apitron.pdf.kit.nuspec",
-        "lib/MonoAndroid/Apitron.PDF.Kit.dll",
-        "lib/MonoAndroid/Apitron.PDF.Kit.xml",
-        "lib/MonoMac/Apitron.PDF.Kit.dll",
-        "lib/MonoMac/Apitron.PDF.Kit.xml",
-        "lib/MonoTouch/Apitron.PDF.Kit.dll",
-        "lib/MonoTouch/Apitron.PDF.Kit.xml",
-        "lib/Xamarin.Mac/Apitron.PDF.Kit.dll",
-        "lib/Xamarin.Mac/Apitron.PDF.Kit.xml",
-        "lib/Xamarin.iOS10/Apitron.PDF.Kit.dll",
-        "lib/Xamarin.iOS10/Apitron.PDF.Kit.xml",
-        "lib/dnxcore50/Apitron.PDF.Kit.dll",
-        "lib/dnxcore50/Apitron.PDF.Kit.xml",
-        "lib/dotnet5.4/Apitron.PDF.Kit.dll",
-        "lib/dotnet5.4/Apitron.PDF.Kit.xml",
-        "lib/net35/Apitron.PDF.Kit.dll",
-        "lib/net35/Apitron.PDF.Kit.xml",
-        "lib/net40/Apitron.PDF.Kit.dll",
-        "lib/net40/Apitron.PDF.Kit.xml",
-        "lib/net45/Apitron.PDF.Kit.dll",
-        "lib/net45/Apitron.PDF.Kit.xml",
-        "lib/net451/Apitron.PDF.Kit.dll",
-        "lib/net451/Apitron.PDF.Kit.xml",
-        "lib/net452/Apitron.PDF.Kit.dll",
-        "lib/net452/Apitron.PDF.Kit.xml",
-        "lib/net46/Apitron.PDF.Kit.dll",
-        "lib/net46/Apitron.PDF.Kit.xml",
-        "lib/net461/Apitron.PDF.Kit.dll",
-        "lib/net461/Apitron.PDF.Kit.xml",
-        "lib/net462/Apitron.PDF.Kit.dll",
-        "lib/net462/Apitron.PDF.Kit.xml",
-        "lib/net47/Apitron.PDF.Kit.dll",
-        "lib/net47/Apitron.PDF.Kit.xml",
-        "lib/net471/Apitron.PDF.Kit.dll",
-        "lib/net471/Apitron.PDF.Kit.xml",
-        "lib/net472/Apitron.PDF.Kit.dll",
-        "lib/net472/Apitron.PDF.Kit.xml",
-        "lib/net50/Apitron.PDF.Kit.dll",
-        "lib/net50/Apitron.PDF.Kit.xml",
-        "lib/netstandard2.1/Apitron.PDF.Kit.dll",
-        "lib/netstandard2.1/Apitron.PDF.Kit.xml",
-        "lib/xamarinios/Apitron.PDF.Kit.dll",
-        "lib/xamarinios/Apitron.PDF.Kit.xml",
-        "lib/xamarinmac/Apitron.PDF.Kit.dll",
-        "lib/xamarinmac/Apitron.PDF.Kit.xml"
+        "apitron.pdf.rasterizer.3.0.165.nupkg.sha512",
+        "apitron.pdf.rasterizer.nuspec",
+        "lib/MonoAndroid/Apitron.PDF.Rasterizer.dll",
+        "lib/MonoAndroid/Apitron.PDF.Rasterizer.xml",
+        "lib/MonoMac/Apitron.PDF.Rasterizer.dll",
+        "lib/MonoMac/Apitron.PDF.Rasterizer.xml",
+        "lib/MonoTouch/Apitron.PDF.Rasterizer.dll",
+        "lib/MonoTouch/Apitron.PDF.Rasterizer.xml",
+        "lib/Xamarin.Mac/Apitron.PDF.Rasterizer.dll",
+        "lib/Xamarin.Mac/Apitron.PDF.Rasterizer.xml",
+        "lib/Xamarin.iOS10/Apitron.PDF.Rasterizer.dll",
+        "lib/Xamarin.iOS10/Apitron.PDF.Rasterizer.xml",
+        "lib/net35/Apitron.PDF.Rasterizer.dll",
+        "lib/net35/Apitron.PDF.Rasterizer.xml",
+        "lib/net40-client/Apitron.PDF.Rasterizer.dll",
+        "lib/net40-client/Apitron.PDF.Rasterizer.xml",
+        "lib/net40/Apitron.PDF.Rasterizer.dll",
+        "lib/net40/Apitron.PDF.Rasterizer.xml",
+        "lib/net45/Apitron.PDF.Rasterizer.dll",
+        "lib/net45/Apitron.PDF.Rasterizer.xml",
+        "lib/net451/Apitron.PDF.Rasterizer.dll",
+        "lib/net451/Apitron.PDF.Rasterizer.xml",
+        "lib/net452/Apitron.PDF.Rasterizer.dll",
+        "lib/net452/Apitron.PDF.Rasterizer.xml",
+        "lib/net46/Apitron.PDF.Rasterizer.dll",
+        "lib/net46/Apitron.PDF.Rasterizer.xml",
+        "lib/net461/Apitron.PDF.Rasterizer.dll",
+        "lib/net461/Apitron.PDF.Rasterizer.xml",
+        "lib/net462/Apitron.PDF.Rasterizer.dll",
+        "lib/net462/Apitron.PDF.Rasterizer.xml",
+        "lib/net47/Apitron.PDF.Rasterizer.dll",
+        "lib/net47/Apitron.PDF.Rasterizer.xml",
+        "lib/net471/Apitron.PDF.Rasterizer.dll",
+        "lib/net471/Apitron.PDF.Rasterizer.xml",
+        "lib/net48/Apitron.PDF.Rasterizer.dll",
+        "lib/net48/Apitron.PDF.Rasterizer.xml",
+        "lib/net50/Apitron.PDF.Rasterizer.dll",
+        "lib/netstandard2.1/Apitron.PDF.Rasterizer.dll"
       ]
     },
     "Microsoft.Win32.SystemEvents/6.0.0": {
@@ -183,7 +175,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Apitron.PDF.Kit >= 2.0.49",
+      "Apitron.PDF.Rasterizer >= 3.0.165",
       "System.Drawing.Common >= 6.0.0"
     ]
   },
@@ -231,9 +223,9 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
-          "Apitron.PDF.Kit": {
+          "Apitron.PDF.Rasterizer": {
             "target": "Package",
-            "version": "[2.0.49, )"
+            "version": "[3.0.165, )"
           },
           "System.Drawing.Common": {
             "target": "Package",
