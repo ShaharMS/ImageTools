@@ -21,3 +21,6 @@ C:\Users\shahar\Documents\GitHub\EZWorksheet-CS\PDFtoPNG\PDFtoPNG\obj\Debug\net5
 C:\Users\shahar\Documents\GitHub\EZWorksheet-CS\PDFtoPNG\PDFtoPNG\obj\Debug\net5.0\PDFtoPNG.pdb
 C:\Users\shahar\Documents\GitHub\EZWorksheet-CS\PDFtoPNG\PDFtoPNG\obj\Debug\net5.0\PDFtoPNG.genruntimeconfig.cache
 C:\Users\shahar\Documents\GitHub\EZWorksheet-CS\PDFtoPNG\PDFtoPNG\bin\Debug\net5.0\Apitron.PDF.Rasterizer.dll
+C:\Users\shaha\Documents\GitHub\EZWorksheet-CS\PDFtoPNG\PDFtoPNG\obj\Debug\net5.0\PDFtoPNG.dll
+C:\Users\shaha\Documents\GitHub\EZWorksheet-CS\PDFtoPNG\PDFtoPNG\obj\Debug\net5.0\ref\PDFtoPNG.dll
+C:\Users\shaha\Documents\GitHub\EZWorksheet-CS\PDFtoPNG\PDFtoPNG\obj\Debug\net5.0\PDFtoPNG.pdb
