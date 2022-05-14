@@ -1,6 +1,3 @@
-# XtoPNG
-A part of the EZWorksheet app that lets you convert files into PNGs.
+# ImageTools
 
-for now supports:
-
-PDF => PNG (multiple);
+A future haxe library that gives support for multiple image recognition function via an external C# app
