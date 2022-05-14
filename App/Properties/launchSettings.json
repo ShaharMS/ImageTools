@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ConsoleApp4": {
+      "commandName": "Project",
+      "commandLineArgs": "\"DetectLines\" \"image.png\""
+    }
+  }
+}

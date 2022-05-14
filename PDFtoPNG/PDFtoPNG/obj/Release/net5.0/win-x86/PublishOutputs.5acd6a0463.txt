@@ -1,6 +1,0 @@
-C:\Users\shahar\Documents\GitHub\EZWorksheet-CS\PDFtoPNG\PDFtoPNG\bin\Release\net5.0\publish\PDFtoPNG.pdb
-C:\Users\shahar\Documents\GitHub\EZWorksheet-CS\PDFtoPNG\PDFtoPNG\bin\Release\net5.0\publish\clrcompression.dll
-C:\Users\shahar\Documents\GitHub\EZWorksheet-CS\PDFtoPNG\PDFtoPNG\bin\Release\net5.0\publish\clrjit.dll
-C:\Users\shahar\Documents\GitHub\EZWorksheet-CS\PDFtoPNG\PDFtoPNG\bin\Release\net5.0\publish\coreclr.dll
-C:\Users\shahar\Documents\GitHub\EZWorksheet-CS\PDFtoPNG\PDFtoPNG\bin\Release\net5.0\publish\mscordaccore.dll
-C:\Users\shahar\Documents\GitHub\EZWorksheet-CS\PDFtoPNG\PDFtoPNG\bin\Release\net5.0\publish\PDFtoPNG.exe
