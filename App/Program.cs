@@ -17,17 +17,17 @@ namespace ImageProcessing
             switch (ProcessType)
             {
                 case "DetectLines":
-                    {
-                        Image < Bgr, Byte> image = new Image<Bgr, Byte>(ImagePath);
-                        var vectors = new VectorOfPointF();
-                        CvInvoke.HoughLines(image, vectors, 0, 0, 40);
-                        Console.WriteLine(vectors.ToString());
-                        return;
-                    }
+                {
+                    Image < Bgr, Byte> image = new Image<Bgr, Byte>(ImagePath);
+                    var vectors = new VectorOfPointF();
+                    CvInvoke.HoughLines(image, vectors, 0, 0, 40);
+                    Console.WriteLine(vectors.ToString());
+                    return;
+                }
                 case "DetectText":
-                    {
-                        break;
-                    }
+                {
+                    break;
+                }
             }
         }
     }
